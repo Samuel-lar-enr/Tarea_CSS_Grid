@@ -1,0 +1,27 @@
+
+.container{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  background-color: lightgrey !important;
+  font-size: 40px;
+grid-template-rows: 50px 50px;
+}
+
+.d1{
+    background-color: lightblue ;
+}
+.d2{
+    background-color: lightcoral ;
+    justify-self:center;
+}
+.d3{
+    background-color: lightcyan ;
+    align-self: self-end;
+}
+.d4{
+    background-color: lightsalmon ;
+}
+.d5{
+    background-color: lightgreen ;
+}
